@@ -1,0 +1,7 @@
+ project 1 concept 
+
+ 1) create a new project with index.html
+ 2) generate boilerplate code using emmet
+ 3) write " i am learning with prashant sir"
+ 4) use comments 
+ 5) also use the case sensitive tags 
