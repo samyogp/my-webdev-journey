@@ -8,11 +8,29 @@
         margin: 20px;
         padding: 20px;
     }
-    #aside {
-        background-color: lightyellow;
-        width: 200px;
-        padding: 10px;
-        margin-left: 20px;
+   .layout {
+  display: flex;
+  gap: 20px; /* space between article and aside */
+}
 
-    
+#articles {
+  flex: 3;
+}
+
+#aside {
+  flex: 1;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+}
+    #main {
+        background-color: whitesmoke;
+        padding: 20px;
+        margin-right: 240px;
+        font-size: 16px;
+
     }
